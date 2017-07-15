@@ -1,5 +1,5 @@
 {
-  "name": "@playlyfe/gql",
+  "name": "@tychot/gql",
   "version": "2.0.0",
   "description": "gql service and tools",
   "main": "lib/index.js",

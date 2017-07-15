@@ -23,20 +23,17 @@
   },
   "author": "Mayank Agarwal <mayank1791989@gmail.com>",
   "license": "MIT",
-  "files": [
-    "lib",
-    "README.md"
-  ],
+  "files": ["lib", "README.md"],
   "dependencies": {
-    "apollo-codegen": "0.10.13",
+    "apollo-codegen": "0.15.2",
     "babel-runtime": "6.23.0",
     "dentist": "1.0.3",
     "fb-watchman": "2.0.0",
     "find-config": "1.0.0",
-    "flow-runtime": "0.12.0",
-    "graphql": "0.9.6",
-    "graphql-language-service-interface": "0.0.11",
-    "graphql-language-service-parser": "0.0.10",
+    "flow-runtime": "0.13.0",
+    "graphql": "0.10.4",
+    "graphql-language-service-interface": "0.0.20",
+    "graphql-language-service-parser": "0.0.16",
     "invariant": "2.2.2",
     "json5": "0.5.1",
     "keymirror": "0.1.1",
@@ -49,20 +46,20 @@
   },
   "devDependencies": {
     "babel-cli": "6.24.1",
-    "babel-jest": "20.0.1",
+    "babel-jest": "20.0.3",
     "babel-plugin-flow-runtime": "0.11.1",
     "babel-polyfill": "6.23.0",
-    "babel-preset-playlyfe": "1.2.0",
+    "babel-preset-playlyfe": "2.0.3",
     "codecov": "2.2.0",
     "commitizen": "2.9.6",
-    "cross-env": "5.0.0",
+    "cross-env": "5.0.1",
     "cz-conventional-changelog": "2.0.0",
     "eslint": "3.19.0",
     "eslint-plugin-playlyfe": "3.0.0",
-    "flow-bin": "0.46.0",
+    "flow-bin": "0.50.0",
     "flow-typed": "2.1.2",
-    "husky": "0.13.3",
-    "jest": "20.0.1",
+    "husky": "0.14.3",
+    "jest": "20.0.4",
     "memory-fs": "0.4.1",
     "semantic-release": "6.3.6"
   },
@@ -74,8 +71,6 @@
   "jest": {
     "testRegex": "__tests__/.*.test.js$",
     "testEnvironment": "node",
-    "roots": [
-      "src/"
-    ]
+    "roots": ["src/"]
   }
 }
